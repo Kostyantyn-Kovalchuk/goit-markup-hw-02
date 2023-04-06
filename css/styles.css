@@ -10,9 +10,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: var(--main-background-color);
-  letter-spacing: 0.02em;
 }
 
 .list {
@@ -63,6 +63,10 @@ body {
 
 /* Hero */
 
+.hero {
+  background-color: var(--secondary-text-color);
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -106,6 +110,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -123,7 +128,7 @@ body {
   background-color: var(--light-mode);
 }
 
-.members-items {
+.members-item {
   background-color: var(--main-background-color);
 }
 /* Portfolio section */
